@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "3c8caf8e-4a00-44a9-a386-06392f44210f",
+		"name": "RUC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6780673"
+	},
+	"item": [
+		{
+			"name": "Padrón reducido - Un valor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ruc\": \"10427040319\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44338/api/ruc",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44338",
+					"path": [
+						"api",
+						"ruc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Padrón reducido - Múltiples valores",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rucs\": [\r\n        \"10427040319\",\r\n        \"10436992853\",\r\n        \"10762961224\",\r\n        \"10418015638\",\r\n        \"10400000001\",\r\n        \"20407324464\",\r\n        \"20412345678\",\r\n        \"20123456789\",\r\n        \"10427040319\",\r\n        \"10766954974\",\r\n        \"10762961224\",\r\n        \"20613957465\",\r\n        \"20602324371\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44338/api/ruc",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44338",
+					"path": [
+						"api",
+						"ruc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
