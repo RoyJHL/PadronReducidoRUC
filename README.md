@@ -87,3 +87,6 @@ POST /api/ruc
     "datetime": "2025-03-22T07:45:14.9188281Z"
 }
 ```
+
+## 🎥 Vídeo de funcionamiento
+[![Ver en YouTube](https://img.youtube.com/vi/u0HGeOgBcGs/0.jpg)](https://www.youtube.com/watch?v=u0HGeOgBcGs)
